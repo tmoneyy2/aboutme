@@ -1,0 +1,55 @@
+body {
+    background-color:rgb(255, 255, 255) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.common {
+    background-color: #f8d5d5;
+    border: 2px solid white;
+    position: absolute;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 200px;
+    z-index: 2;
+}
+
+.leftmenu {
+    top: 214px;
+    left: 5px;
+    width: 100px;
+    bottom: 39px;
+    z-index: 1;
+}
+
+.mainbody {
+    top: 214px;
+    left: 114px;
+    right: 114px;
+    bottom: 39px;
+}
+
+.rightmenu {
+    top: 214px;
+    right: 5px;
+    width: 100px;
+    bottom: 20px;
+}
+
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 8px;
+    color: #999999;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.subheader {
+    float: right;
+}
